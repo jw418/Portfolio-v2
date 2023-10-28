@@ -7,7 +7,7 @@ export default function Header(props: {
 }) {
   return (
     <>
-      <header className="relative max-w-[1500px] w-[100%] h-screen mx-auto flex items-center justify-between flex-wrap gap-12 text-center px-2 pt-14 pb-14">
+      <header className="relative max-w-[1500px] w-[100%] mx-auto flex items-center justify-between flex-wrap gap-12 text-center px-2 pt-14 pb-14">
         <div className="absolute top-3 right-16">
           <div
             className={`cursor-pointer transition-ease-in-out inline-flex items-center justify-center gap-3 ${
@@ -60,14 +60,14 @@ export default function Header(props: {
         </div>
 
         <Image
-          className="mx-auto my-12 rounded-full shadow-lg shadow-gray-600 max-w-[12em] xl:max-w-[15em]"
-          style={{ height: "auto" }}
+          className="mx-auto my-12 rounded-full shadow-lg shadow-gray-600 w-[12em] xl:-w-[15em]"
+          //style={{ height: "auto" }}
           src="/img/ppHeader.jpg"
           alt=""
           width={2228}
           height={2228}
         />
-        <div className="w-[450px] pb-36 sm:pb-0 mx-auto flex flex-col justify-center gap-2">
+        <div className="pb-36 sm:pb-0 mx-auto flex flex-col justify-center gap-2">
           <h1 className="text-5xl">
             {props.isEng ? "Hi, I'm Julien Wolff" : "Bonjour, Julien Wolff"}
           </h1>

@@ -18,6 +18,7 @@ export default function Home() {
 
   React.useEffect(() => {
     setTheme("dark");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function toggleLang() {

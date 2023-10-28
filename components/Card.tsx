@@ -32,7 +32,7 @@ export default function Card(props: {
   return (
     <>
       <div
-        className={`h-[450px] sm:h-[550px] relative max-w-full w-[445px]  shadow-lg shadow-gray-600 ${
+        className={`h-[450px] sm:h-[550px] relative max-w-full  shadow-lg shadow-gray-600 ${
           props.isDark ? "text-white" : "text-black"
         } bg-transparent  bg-opacity-75 rounded-xl  p-[2.5%] flex flex-col border-4 border-blue-500`}
       >
