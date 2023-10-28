@@ -60,14 +60,14 @@ export default function Header(props: {
         </div>
 
         <Image
-          className="mx-auto my-12 rounded-full shadow-lg shadow-gray-600"
-          style={{ maxWidth: "12em", height: "auto" }}
+          className="mx-auto my-12 rounded-full shadow-lg shadow-gray-600 max-w-[12em] xl:max-w-[15em]"
+          style={{ height: "auto" }}
           src="/img/ppHeader.jpg"
           alt=""
           width={2228}
           height={2228}
         />
-        <div className="w-[450px] mx-auto flex flex-col justify-center gap-2">
+        <div className="w-[450px] pb-36 sm:pb-0 mx-auto flex flex-col justify-center gap-2">
           <h1 className="text-5xl">
             {props.isEng ? "Hi, I'm Julien Wolff" : "Bonjour, Julien Wolff"}
           </h1>
