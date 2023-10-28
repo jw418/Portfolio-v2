@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <>
       <div
-        className={`flex flex-col mx-auto font-sans min-w-[300px] min-h-full max-w-6xl m-auto p-4 relative bg-gray-100 text-black dark:bg-gray-800 dark:text-white `}
+        className={`flex flex-col mx-auto font-sans min-w-[300px] min-h-full max-w-6xl m-auto relative bg-gray-100 text-black dark:bg-gray-800 dark:text-white `}
       >
         <Header
           toggleStyle={toggleStyle}
