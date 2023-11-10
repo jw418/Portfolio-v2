@@ -12,6 +12,27 @@ export const data: {
 }[] = [
   {
     id: 1,
+    title: "Cogito DAPP Demo",
+    image: "screenshot-cogito.png",
+    width: 976,
+    height: 1066,
+    description: "En cours de développement...",
+    descriptionEN: "In development...",
+    tag: [
+      "Next.js",
+      "Typescript",
+      "Ethers.js",
+      "Clerk",
+      "Tailwind",
+      "Schadcdn",
+      "Emotion",
+      "Radix",
+    ],
+    github: "https://github.com/jw418/cogito-dapp-example",
+    site: "",
+  },
+  {
+    id: 2,
     title: "Agixscan.io",
     image: "snetHubScreenshot.PNG",
     width: 773,
@@ -20,12 +41,12 @@ export const data: {
       "Agrégateur de données on-chain et off-chain pour l'écosystème SingularityNet(AGIX). Construit à partir de zéro avec Next.js",
     descriptionEN:
       "Is an unofficial website that provides general information and on-chain data about SingularityNET ecosystem. Built from scratch with Next.js",
-    tag: ["Next.js", "Ethers.js", "Vercel", "API", "SEO"],
+    tag: ["Next.js", "Typescript", "Ethers.js", "Vercel", "API", "SEO"],
     github: "",
     site: "https://agixscan.io",
   },
   {
-    id: 2,
+    id: 3,
     title: "Decentralized Hangman Game",
     image: "hangmanScreenshot.PNG",
     width: 1170,
@@ -48,7 +69,7 @@ export const data: {
     site: "https://floral-darkness-8082.on.fleek.co/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Rat Race NFT",
     image: "mtsScreenshot.PNG",
     width: 1503,
@@ -71,7 +92,7 @@ export const data: {
     site: "https://mtsalyra.herokuapp.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Smart Wallet ERC6551 Demo",
     image: "smartWalletScreenshot.jpg",
     width: 503,
@@ -86,7 +107,7 @@ export const data: {
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Portfolio Site",
     image: "portfolioScreenshot.PNG",
     width: 980,
@@ -106,7 +127,7 @@ export const data: {
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Crypto Price Bot",
     image: "discordBotScreenshot.PNG",
     width: 980,
@@ -121,7 +142,7 @@ export const data: {
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Dyno Telegram Bot",
     image: "tgBotScreenshot.jpeg",
     width: 1242,
@@ -136,7 +157,7 @@ export const data: {
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Voting DAPP",
     image: "voteScreenshot.PNG",
     width: 1702,
