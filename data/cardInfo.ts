@@ -122,7 +122,7 @@ export const data: {
       "Netlify",
       "nodemailer",
     ],
-    github: "https://github.com/jw418/Portfolio-Site",
+    github: "https://github.com/jw418/Portfolio-v2",
     site: "https://www.jw-web3.com/",
   },
 
