@@ -12,6 +12,30 @@ export const data: {
 }[] = [
   {
     id: 1,
+    title: "Flip Wallet",
+    image: "flipWalletScreenshot.png",
+    width: 321,
+    height: 449,
+    description:
+      "Réalisé dans le cadre du Hackathon Constelation Chianlink 2023, Flip: un portefeuille cross-chain user-friendly grâce à CCIP",
+    descriptionEN:
+      "Produced as part of the Chianlink 2023 Constellation Hackathon, Flip: a user-friendly cross-chain wallet powered by CCIP",
+    tag: [
+      "CRXJS",
+      "Vite",
+      "React",
+      "Typescript",
+      "Ethers.js",
+      "Hardhat",
+      "Material-UI",
+      "Chainlink CCIP",
+      "CI/CD",
+    ],
+    github: "https://github.com/mrlucciola/link-hack-ccip",
+    site: "",
+  },
+  {
+    id: 2,
     title: "Cogito DAPP Demo",
     image: "screenshot-cogito.png",
     width: 1784,
@@ -25,14 +49,12 @@ export const data: {
       "Clerk",
       "Tailwind",
       "Schadcdn",
-      "Emotion",
-      "Radix",
     ],
     github: "https://github.com/jw418/cogito-dapp-example",
     site: "",
   },
   {
-    id: 2,
+    id: 3,
     title: "Agixscan.io",
     image: "snetHubScreenshot.PNG",
     width: 773,
@@ -46,7 +68,7 @@ export const data: {
     site: "https://agixscan.io",
   },
   {
-    id: 3,
+    id: 4,
     title: "Decentralized Hangman Game",
     image: "hangmanScreenshot.PNG",
     width: 1170,
@@ -69,7 +91,7 @@ export const data: {
     site: "https://floral-darkness-8082.on.fleek.co/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Rat Race NFT",
     image: "mtsScreenshot.PNG",
     width: 1503,
@@ -92,7 +114,7 @@ export const data: {
     site: "https://mtsalyra.herokuapp.com/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Smart Wallet ERC6551 Demo",
     image: "smartWalletScreenshot.jpg",
     width: 503,
@@ -107,7 +129,7 @@ export const data: {
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Portfolio Site",
     image: "portfolioScreenshot.PNG",
     width: 980,
@@ -127,7 +149,7 @@ export const data: {
   },
 
   {
-    id: 7,
+    id: 8,
     title: "Crypto Price Bot",
     image: "discordBotScreenshot.PNG",
     width: 980,
@@ -142,7 +164,7 @@ export const data: {
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Dyno Telegram Bot",
     image: "tgBotScreenshot.jpeg",
     width: 1242,
@@ -157,7 +179,7 @@ export const data: {
   },
 
   {
-    id: 9,
+    id: 10,
     title: "Voting DAPP",
     image: "voteScreenshot.PNG",
     width: 1702,
