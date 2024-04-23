@@ -131,7 +131,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <Footer isEng={isEng} isDark={isDark} />
+          {/* <Footer isEng={isEng} isDark={isDark} /> */}
         </main>
       </div>
     </>
