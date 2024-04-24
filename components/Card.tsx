@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 
@@ -8,7 +9,7 @@ export default function Card(props: {
   height: number;
   description: string;
   descriptionEN: string;
-  tag: string[];
+  tags: [string, string][];
   github?: string;
   site?: string;
   isEng: boolean;
@@ -28,18 +29,44 @@ export default function Card(props: {
       display: "none",
     });
   };
+  // const imageLoader = () => {
+  //   return `/img/capture/${props.image}&q=30`;
+  // };
+
+  const colorVariants: { [key: string]: string } = {
+    blue: "bg-blue-100 text-blue-600",
+    red: "bg-red-100 text-red-600",
+    green: "bg-green-100 text-green-600",
+    yellow: "bg-yellow-100 text-yellow-600",
+    purple: "bg-purple-100 text-purple-600",
+    pink: "bg-pink-100 text-pink-600",
+    gray: "bg-gray-100 text-gray-600",
+    indigo: "bg-indigo-100 text-indigo-600",
+    teal: "bg-teal-100 text-teal-600",
+    orange: "bg-orange-100 text-orange-600",
+    cyan: "bg-cyan-100 text-cyan-600",
+    lime: "bg-lime-100 text-lime-600",
+    amber: "bg-amber-100 text-amber-600",
+    emerald: "bg-emerald-100 text-emerald-600",
+    rose: "bg-rose-100 text-rose-600",
+    fuchsia: "bg-fuchsia-100 text-fuchsia-600",
+    violet: "bg-violet-100 text-violet-600",
+  };
 
   return (
     <>
       <div
-        className={`h-[450px] sm:h-[550px] relative max-w-full  shadow-lg shadow-gray-600 ${
-          props.isDark ? "text-white" : "text-black"
+        className={`h-[450px] sm:h-[550px] relative max-w-full  shadow-lg  shadow-gray-600 ${
+          props.isDark
+            ? "text-white shadow-gray-500"
+            : "text-black shadow-gray-600"
         } bg-transparent  bg-opacity-75 rounded-xl  p-[2.5%] flex flex-col border-4 border-blue-500`}
       >
         <h3 className="mt-0.5 text-2xl font-[700] ">{props.title}</h3>
         <div className="relative w-full my-5 mx-0 h-[35%] overflow-hidden rounded-lg transform transition-transform duration-200 ease-in">
           <Image
             alt="Home"
+            priority
             src={`/img/capture/${props.image}`}
             width={props.width}
             height={props.height}
@@ -79,14 +106,18 @@ export default function Card(props: {
           </p>
 
           <div className="mt-4 flex justify-center flex-wrap gap-1 ">
-            {props.tag.map((tag, index) => (
-              <span
-                className="whitespace-nowrap rounded-full bg-purple-100 px-2.5 py-0.5 text-sm text-purple-600"
-                key={index}
-              >
-                {tag}
-              </span>
-            ))}
+            {props.tags.map((tag, index) => {
+              return (
+                <span
+                  className={`whitespace-nowrap rounded-full  px-2.5 py-0.5 text-sm ${
+                    colorVariants[tag[1]]
+                  }`}
+                  key={index}
+                >
+                  {typeof tag !== "string" ? tag[0] : tag}
+                </span>
+              );
+            })}
           </div>
           <div className="flex  gap-4 justify-evenly mt-4">
             {props.github ? (

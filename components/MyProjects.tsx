@@ -25,7 +25,7 @@ export default function MyProjects(props: { isEng: boolean; isDark: boolean }) {
         height={card.height}
         description={card.description}
         descriptionEN={card.descriptionEN}
-        tag={card.tag}
+        tags={card.tags}
         github={card.github}
         site={card.site}
         isEng={props.isEng}
