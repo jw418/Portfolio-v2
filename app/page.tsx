@@ -58,8 +58,8 @@ export default function Home() {
                   <div className="flex flex-col h-full">
                     <p className="max-w-xl text-xl">
                       {isEng
-                        ? "Dear visitor, if you are looking for someone to bring your Web3 projects to life, please don't hesitate to contact me. Whether it's for a full-time position or freelance collaboration, I'm eager to help you turn your ideas into reality. Let's collaborate and create something impactful."
-                        : "Cher visiteur, si vous recherchez quelqu'un pour concrétiser vos projets Web3, n'hésitez pas à me contacter. Que ce soit pour un poste à plein temps ou une collaboration freelance, je suis désireux de vous aider à transformer vos idées en réalité. Collaborons et créons quelque chose d'impactant."}
+                        ? "If you are looking for someone to bring your Web3 projects to life, please don't hesitate to contact me. Whether it's for a full-time position or freelance collaboration, I'm eager to help you turn your ideas into reality. Let's collaborate and create something impactful."
+                        : "Si vous recherchez quelqu'un pour concrétiser vos projets Web3, n'hésitez pas à me contacter. Que ce soit pour un poste à plein temps ou une collaboration freelance, je suis désireux de vous aider à transformer vos idées en réalité. Collaborons et créons quelque chose d'impactant."}
                     </p>
 
                     <div className="flex flex-col h-full justify-evenly text-xl items-center  mt-4 lg:items-start lg:my-0">

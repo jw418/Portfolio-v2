@@ -11,9 +11,9 @@ export const data: {
   site?: string;
 }[] = [
   // purple = framework
-  // green = method
+  // orange = method
   // pink = language
-  // orange = hosting
+  // green = hosting
   // blue = front-end
   // yellow = depandencies
   // red = blockchain
@@ -31,7 +31,7 @@ export const data: {
     tags: [
       ["Next.js", "purple"],
       ["Typescript", "pink"],
-      ["Vercel", "orange"],
+      ["Vercel", "green"],
       ["Shadcn", "blue"],
       ["Tailwind", "blue"],
       ["Aceternity UI", "blue"],
@@ -47,12 +47,12 @@ export const data: {
     width: 321,
     height: 449,
     description:
-      "Réalisé dans le cadre du Hackathon Constelation Chianlink 2023, Flip: un portefeuille cross-chain user-friendly grâce à CCIP",
+      "Réalisé dans le cadre du Hackathon Constelation Chainlink 2023, Flip: un portefeuille cross-chain user-friendly grâce à CCIP",
     descriptionEN:
-      "Produced as part of the Chianlink 2023 Constellation Hackathon, Flip: a user-friendly cross-chain wallet powered by CCIP",
+      "Produced as part of the Chainlink 2023 Constellation Hackathon, Flip: a user-friendly cross-chain wallet powered by CCIP",
     tags: [
       ["Vite", "purple"],
-      ["CI/CD", "green"],
+      ["CI/CD", "orange"],
       ["React", "pink"],
       ["Typescript", "pink"],
       ["Material-UI", "blue"],
@@ -76,10 +76,9 @@ export const data: {
       "It's a Decentralized Hangman's Versus Game. You can create or join a game, the winner takes all!",
     tags: [
       ["React", "pink"],
-      ["Fleek", "orange"],
-      ["IPFS", "orange"],
-      ["Truffle", "red"],
+      ["Fleek", "green"],
       ["Bootstrap", "blue"],
+      ["Truffle", "red"],
       ["Chainlink_VRFv2", "red"],
       ["Slither", "red"],
       ["Web3.js", "red"],
@@ -119,10 +118,10 @@ export const data: {
       "Is an unofficial website that provides general information and on-chain data about SingularityNET ecosystem. Built from scratch with Next.js",
     tags: [
       ["Next.js", "purple"],
-      ["API", "green"],
-      ["SEO", "green"],
+      ["API", "orange"],
+      ["SEO", "orange"],
       ["Typescript", "pink"],
-      ["Vercel", "orange"],
+      ["Vercel", "green"],
       ["Ethers.js", "red"],
     ],
     github: "",
@@ -138,9 +137,9 @@ export const data: {
     descriptionEN: "This site was designed and developed on a freelance basis.",
     tags: [
       ["Next.js", "purple"],
-      ["SEO", "green"],
+      ["SEO", "orange"],
       ["Typescript", "pink"],
-      ["Vercel", "orange"],
+      ["Vercel", "green"],
       ["Tailwind", "blue"],
       ["Framer Motion", "blue"],
       ["Resend", "yellow"],
@@ -158,9 +157,9 @@ export const data: {
     descriptionEN: "This site was designed and developed on a freelance basis.",
     tags: [
       ["Next.js", "purple"],
-      ["SEO", "green"],
+      ["SEO", "orange"],
       ["Typescript", "pink"],
-      ["Vercel", "orange"],
+      ["Vercel", "green"],
       ["Tailwind", "blue"],
       ["Resend", "yellow"],
     ],
@@ -177,14 +176,15 @@ export const data: {
     description: "Cette DAPP lance une collection NFT.",
     descriptionEN: "This DAPP launches an NFT collection.",
     tags: [
-      ["Scrum", "green"],
-      ["Trello", "green"],
+      ["Scrum", "orange"],
+      ["Trello", "orange"],
       ["React", "pink"],
       ["HTML", "pink"],
+      ["IPFS", "green"],
       ["CSS", "blue"],
       ["Hashlips", "yellow"],
       ["OpenSea", "red"],
-      ["truffle", "red"],
+      ["Truffle", "red"],
       ["NFT", "red"],
       ["ERC721", "red"],
     ],
@@ -225,7 +225,7 @@ export const data: {
       ["Next.js", "purple"],
       ["Typescript", "pink"],
       ["React", "pink"],
-      ["Netlify", "orange"],
+      ["Netlify", "green"],
       ["Tailwind", "blue"],
       ["nodemailer", "yellow"],
     ],
@@ -265,7 +265,7 @@ export const data: {
       "A dicord bot that can give the price of different crypto-currencies.",
     tags: [
       ["Node.js", "pink"],
-      ["discord.js", "yellow"],
+      ["Discord.js", "yellow"],
       ["Infura", "red"],
       ["Chainlink_PriceFeeds", "red"],
       ["Web3.js", "red"],
@@ -285,7 +285,7 @@ export const data: {
       "A telegram bot that sends an alert when it detects a swap on the DynBTC or on the DynETH contract.",
     tags: [
       ["Node.js", "pink"],
-      ["node-telegram-bot-api", "yellow"],
+      ["Node-telegram-bot-api", "yellow"],
       ["Alchemy", "red"],
       ["Web3.js", "red"],
     ],

@@ -27,7 +27,7 @@ export default function Formation(props: { isEng: boolean; isDark: boolean }) {
           {props.isEng ? "Courses" : "Formation"}
         </h2>
         <ol className={`relative border-l border-gray-200`}>
-          <li className="mb-10 ml-4">
+          {/* <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400">
               {props.isEng
@@ -80,7 +80,7 @@ export default function Formation(props: { isEng: boolean; isDark: boolean }) {
                 ? "Basics of Python, Javascript, Git/Github, HTML, CSS"
                 : "Bases de Python, Javascript, Git/Github, HTML, CSS"}
             </p>
-          </li>
+          </li> */}
           <li className="mb-10 ml-4">
             <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white"></div>
             <div className="flex items-start">
